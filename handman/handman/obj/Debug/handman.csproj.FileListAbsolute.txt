@@ -1,0 +1,16 @@
+C:\Users\Dax\Desktop\Projekt\handman\handman\bin\Debug\handman.exe.config
+C:\Users\Dax\Desktop\Projekt\handman\handman\bin\Debug\handman.exe
+C:\Users\Dax\Desktop\Projekt\handman\handman\bin\Debug\handman.pdb
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.csprojAssemblyReference.cache
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\GameField.g.cs
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\MainWindow.g.cs
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\App.g.cs
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman_MarkupCompile.cache
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman_MarkupCompile.lref
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\GameField.baml
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\MainWindow.baml
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.g.resources
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.Properties.Resources.resources
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.csproj.GenerateResource.cache
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.exe
+C:\Users\Dax\Desktop\Projekt\handman\handman\obj\Debug\handman.pdb
