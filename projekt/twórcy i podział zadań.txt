@@ -1,0 +1,5 @@
+Szymon Gliwa-
+storzenie logiki działania gry 40%
+Oskar Mirocha-
+stworzenie grafiki wyglądu gry, wsparcie przy logice 60%
+

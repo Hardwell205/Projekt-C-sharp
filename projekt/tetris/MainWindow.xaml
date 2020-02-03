@@ -1,0 +1,60 @@
+﻿<Window x:Class="tetris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="835" Width="815"
+         KeyDown="Grid_OnKeyDown">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="515"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        
+        
+        <Grid Width="515"  HorizontalAlignment="Left">
+             <Grid x:Name="Grid"></Grid>    
+            <Grid x:Name="TilesGrid"></Grid>
+            <Grid x:Name="ActiveFigureGrid"></Grid>        
+            
+            <Grid.LayoutTransform>
+            <ScaleTransform ScaleY="-1"></ScaleTransform>
+        </Grid.LayoutTransform>
+        </Grid>
+        
+        <Grid Grid.Column="1" Background="SandyBrown">
+            <StackPanel VerticalAlignment="Center" Margin="20" Orientation="Vertical">
+
+                <StackPanel HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" Orientation="Horizontal">
+                    <TextBlock FontSize="20" >Lines:</TextBlock>
+                    <TextBlock FontSize="20" x:Name="LinesNumber" Text=" 0" Foreground="OrangeRed"></TextBlock>
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Margin="20" 
+                        VerticalAlignment="Center" Orientation="Horizontal">
+                    <TextBlock FontSize="20" >Record: </TextBlock>
+                <TextBlock FontSize="20" x:Name="LinesRecord" Text=" 0"  Foreground="OrangeRed"></TextBlock>
+            </StackPanel>
+                
+                
+                <Grid>
+
+                    <Grid x:Name="nextGrig">
+                        <Grid.LayoutTransform>
+                            <ScaleTransform ScaleY="-1"></ScaleTransform>
+                        </Grid.LayoutTransform>
+
+                    </Grid>
+
+                </Grid>
+            <Button HorizontalAlignment="Center" FontSize="20" Click="StartAgain">Start again</Button>
+            </StackPanel>
+        </Grid>
+<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="OrangeRed" x:Name="Announcement">
+    
+</TextBlock>
+    </Grid>
+    
+</Window>
